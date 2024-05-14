@@ -15,6 +15,7 @@ import Lusitanian4 from "../assets/Lusitanian4.png"
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Footer from "../Components/Footer"
 
 const titanicPhotos = [ Titanic, Titanic1, Titanic2 ];
     
@@ -34,20 +35,18 @@ function Projects () {
             </nav>
             <Container className="d-flex flex-column align-items-center">
             <Col xs={12} sm={10} md={12} lg={8} className="mb-4">
-                <Card>
+                <Card className="border-0">
                     <Card.Body>
-                        <Card.Title>Titanic Xtreme Drift</Card.Title>
+                        <Card.Title><a style={{ textDecoration: "none", color:"darkblue", fontWeight:"bold"}} href="https://manueldiogo.github.io/week1-project-game-titanic/">Titanic Xtreme Drift</a></Card.Title>
                         <Card.Text>Game made with HTML, CSS and Javascript.</Card.Text>
                         <Carousel interval={null} data-bs-theme="white" className="carousel" fade>
                             {titanicPhotos.map((photo, index) => (
                                 <Carousel.Item key={index}>
-                                    <a href="https://manueldiogo.github.io/week1-project-game-titanic/">
                                         <img
                                             src={photo}
                                             alt={`Titanic ${index}`}
                                             className="d-block w-100 h-100"
                                         />
-                                    </a>
                                 </Carousel.Item>
                             ))}
                         </Carousel>
@@ -55,20 +54,18 @@ function Projects () {
                 </Card>
             </Col>
             <Col xs={12} sm={10} md={12} lg={8} className="mb-4">
-                <Card>
+                <Card className="border-0">
                     <Card.Body>
-                        <Card.Title>PetShop</Card.Title>
+                        <Card.Title><a style={{ textDecoration: "none", color:"darkblue", fontWeight:"bold"}} href="https://project2-diana-gabriela-kpzp3vt26-rui-marques-projects.vercel.app/">PetShop</a></Card.Title>
                         <Card.Text>Front-end web app created with HTML, CSS, Javascript and ReactJS</Card.Text>
                         <Carousel interval={null} data-bs-theme="white" className="carousel" fade>
                             {petShopPhotos.map((photo, index) => (
                                 <Carousel.Item key={index}>
-                                    <a href="https://project2-diana-gabriela-kpzp3vt26-rui-marques-projects.vercel.app/">
                                         <img
                                             src={photo}
                                             alt={`PetShop ${index}`}
                                             className="d-block w-100 h-100"
                                         />
-                                    </a>
                                 </Carousel.Item>
                             ))}
                         </Carousel>
@@ -76,20 +73,19 @@ function Projects () {
                 </Card>
             </Col>
             <Col xs={12} sm={10} md={12} lg={8} className="mb-4">
-                <Card className="card-css">
+                <Card className="border-0">
                     <Card.Body>
-                        <Card.Title>LusitanianBoost</Card.Title>
+                        <Card.Title><a style={{ textDecoration: "none", color:"darkblue", fontWeight:"bold"}} href="https://project-3-frontend-ten.vercel.app/">LusitanianBoost</a></Card.Title>
                         <Card.Text>Front-end and back-end web app created with ReactJS, Javascript, HTML, Chakra UI, MongoDB, NodeJS and ExpressJS</Card.Text>
-                        <Carousel interval={null} data-bs-theme="dark" controls={false} className="carousel" fade>
+                        <Carousel interval={null} data-bs-theme="dark" className="carousel" fade>
                             {lusitanianPhotos.map((photo, index) => (
                                 <Carousel.Item key={index}>
-                                    <a href="https://project-3-frontend-ten.vercel.app/">
+                                    
                                         <img
                                             src={photo}
                                             alt={`Lusitanian ${index}`}
                                             className="d-block h-100 w-100"
                                         />
-                                    </a>
                                 </Carousel.Item>
                             ))}
                         </Carousel>
@@ -97,6 +93,7 @@ function Projects () {
                 </Card>
             </Col>
         </Container>
+        <Footer/>
         </section>
     )
 }

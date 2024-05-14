@@ -5,8 +5,9 @@ import ListGroup from "react-bootstrap/ListGroup";
 import JCSLogo from "../assets/JCSLogo.webp"
 import LouresLogo from "../assets/LouresGSLogo.png"
 import SLBLogo from "../assets/BenficaLogo.png"
-import FisidinamicaLogo from "../assets/FisidinamicaLogo.jpg"
-import ZooLogo from "../assets/ZooLogo.jpg"
+import FisidinamicaLogo from "../assets/FisidinamicaLogo.png"
+import ZooLogo from "../assets/ZooLogo.png"
+import Footer from "../Components/Footer"
 
 function Work () {
     return (
@@ -20,7 +21,7 @@ function Work () {
 
             <div className="row">
                 <div className="col-md-6 col-lg-4 mb-4">
-                <Card className="text-center" style={{ width: '22rem'}}>
+                <Card className="text-center" style={{ width: '22rem', height: "27.5rem"}}>
                         <img width={260} height={110} src={JCSLogo} className="mx-auto"/>
                         <Card.Body>
                             <Card.Title>Physiotherapy Assistant</Card.Title>
@@ -37,7 +38,7 @@ function Work () {
                 </div>
                 
                 <div className="col-md-6 col-lg-4 mb-4">
-                    <Card className="text-center" style={{ width: '22rem'}}>
+                    <Card className="text-center" style={{ width: '22rem', height: "27.5rem"}}>
                         <img width={100} height={110} src={LouresLogo} className="mx-auto"/>
                         <Card.Body>
                             <Card.Title>Sports Masseur</Card.Title>
@@ -54,8 +55,8 @@ function Work () {
                 </div>
 
                 <div className="col-md-6 col-lg-4 mb-4">
-                <Card className="text-center" style={{ width: '22rem'}}>
-                        <img width={190} height={130} src={SLBLogo} className="mx-auto"/>
+                <Card className="text-center" style={{ width: '22rem', height: "27.5rem"}}>
+                        <img width={210} height={150} style={{ marginTop: "-20px"}} src={SLBLogo} className="mx-auto"/>
                         <Card.Body>
                             <Card.Title>Sports Masseur</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Escola de Futebol Alverca/Benfica</Card.Subtitle>
@@ -71,8 +72,8 @@ function Work () {
                 </div>
 
                 <div className="col-md-6 col-lg-4 mb-4">
-                <Card className="text-center" style={{ width: '22rem'}}>
-                        <img width={140} height={130} src={FisidinamicaLogo} className="mx-auto"/>
+                <Card className="text-center" style={{ width: '22rem' , height: "27.5rem"}}>
+                        <img width={130} height={120} src={FisidinamicaLogo} className="mx-auto"/>
                         <Card.Body>
                             <Card.Title>Physiotherapy Assistant</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Fisidinâmica | Out 2016 - Mar 2018</Card.Subtitle>
@@ -89,7 +90,7 @@ function Work () {
 
                 <div className="col-md-6 col-lg-4 mb-4">
                 <Card className="text-center" style={{ width: '22rem', height: "27.5rem"}}>
-                    <img width={120} height={100} src={ZooLogo} className="mx-auto"/>
+                    <img width={130} height={120} style={{ marginTop: "-20px", marginBottom: "-20px"}} src={ZooLogo} className="mx-auto"/>
                     <Card.Body>
                         <Card.Title>Marine Mammal Trainer Assistant</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">Jardim Zoológico de Lisboa | Jan 2010 - Mar 2011</Card.Subtitle>
@@ -107,6 +108,7 @@ function Work () {
                 </Card>
                 </div>
             </div>
+            <Footer/>
         </section>
     )
 }

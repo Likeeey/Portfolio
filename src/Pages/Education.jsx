@@ -17,9 +17,9 @@ function Education () {
                 <Navbar/>
             </nav>
             <div style={{marginTop: "40px"}} className="container d-flex flex-column align-items-center">
-                <Col xs={12} sm={8} md={6} lg={5}>
+                <Col xs={12} sm={8} md={6} lg={5} className="mb-4">
                     <Card>
-                        <Card.Img className="card-img" variant="top" src={IronLogo} />
+                        <img width={200} className="mx-auto" src={IronLogo} />
                         <Card.Body>
                             <Card.Title>Web Development Bootcamp</Card.Title>
                             <Card.Text>
@@ -32,9 +32,9 @@ function Education () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col xs={12} sm={8} md={6} lg={5}>
+                <Col xs={12} sm={8} md={6} lg={5} className="mb-4">
                     <Card>
-                        <Card.Img className="card-img" variant="top" src={ImtLogo} />
+                        <img width={200} height={100} className="mx-auto" src={ImtLogo} />
                         <Card.Body>
                             <Card.Title>Masseur and physiotherapy assistant</Card.Title>
                             <Card.Text>
@@ -43,9 +43,9 @@ function Education () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col xs={12} sm={8} md={6} lg={5}>
+                <Col xs={12} sm={8} md={6} lg={5} className="mb-4">
                     <Card>
-                        <Card.Img className="card-img" variant="top" src={MasterDLogo} />
+                        <img width={200} className="mx-auto" src={MasterDLogo} />
                         <Card.Body>
                             <Card.Title>Renewable energy technician</Card.Title>
                             <Card.Text>
@@ -54,9 +54,9 @@ function Education () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col xs={12} sm={8} md={6} lg={5}>
+                <Col xs={12} sm={8} md={6} lg={5} className="mb-4">
                     <Card>
-                        <Card.Img className="card-img" variant="top" src={SecundariaLogo} />
+                        <img width={200} className="mx-auto" src={SecundariaLogo} />
                         <Card.Body>
                             <Card.Title>Sports Technology course</Card.Title>
                             <Card.Text>
