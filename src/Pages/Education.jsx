@@ -38,7 +38,7 @@ function Education () {
                         <Card.Body>
                             <Card.Title>Masseur and physiotherapy assistant</Card.Title>
                             <Card.Text>
-                                Instituto de Medicina Tradicional | Jul 2015 - Jul 2016
+                                Institute of Traditional Medicine | Jul 2015 - Jul 2016
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -60,7 +60,7 @@ function Education () {
                         <Card.Body>
                             <Card.Title>Sports Technology course</Card.Title>
                             <Card.Text>
-                                Agrupamento de Escolas da Portela e Moscavide | 2009 - 2012
+                                Secondary School of Portela | 2009 - 2012
                             </Card.Text>
                         </Card.Body>
                     </Card>

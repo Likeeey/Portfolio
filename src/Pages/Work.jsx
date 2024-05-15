@@ -32,7 +32,7 @@ function Work () {
                         </Card.Body>
                         <ListGroup className="list-group-flush">
                             <ListGroup.Item>Organization, Stress Management, Problem Solving, Teamwork, Communication.</ListGroup.Item>
-                            <ListGroup.Item></ListGroup.Item>
+                            
                         </ListGroup>
                     </Card>
                 </div>
@@ -42,14 +42,14 @@ function Work () {
                         <img width={100} height={110} src={LouresLogo} className="mx-auto"/>
                         <Card.Body>
                             <Card.Title>Sports Masseur</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">GS Loures | Set 2022 - Aug 2023</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">GS Loures | Sep 2022 - Aug 2023</Card.Subtitle>
                             <Card.Text>
                                 Rehabilitation treatments to football players in national competitions.
                             </Card.Text>
                         </Card.Body>
                         <ListGroup className="list-group-flush">
                             <ListGroup.Item>Organization, Stress Management, Problem Solving, Teamwork, Communication.</ListGroup.Item>
-                            <ListGroup.Item></ListGroup.Item>
+                            
                         </ListGroup>
                     </Card>
                 </div>
@@ -66,7 +66,7 @@ function Work () {
                         </Card.Body>
                         <ListGroup className="list-group-flush">
                             <ListGroup.Item>Adaptability, Problem Solving, Teamwork, Communication, Organization.</ListGroup.Item>
-                            <ListGroup.Item></ListGroup.Item>
+                            
                         </ListGroup>
                     </Card>
                 </div>
@@ -76,14 +76,14 @@ function Work () {
                         <img width={130} height={120} src={FisidinamicaLogo} className="mx-auto"/>
                         <Card.Body>
                             <Card.Title>Physiotherapy Assistant</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Fisidinâmica | Out 2016 - Mar 2018</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Fisidinâmica | Oct 2016 - Mar 2018</Card.Subtitle>
                             <Card.Text>
                                 Therapeutic massages and rehabilitation treatments.
                             </Card.Text>
                         </Card.Body>
                         <ListGroup className="list-group-flush">
                             <ListGroup.Item>Adaptability, Teamwork, Organization, Time Management, Communication.</ListGroup.Item>
-                            <ListGroup.Item></ListGroup.Item>
+                            
                         </ListGroup>
                     </Card>
                 </div>
@@ -97,7 +97,7 @@ function Work () {
                             <div className="row">
                                 <div className="col-12">
                                     <p className="card-text text-justify">
-                                        Trained and care about the health of marine mammals such as dolphins, sea lions, seals and penguins.
+                                        Husbandry of marine mammal such as dolphins, sea lions, seals and penguins.
                                     </p>
                                 </div>
                             </div>

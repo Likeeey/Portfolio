@@ -5,15 +5,14 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 function Navbars() {
   return (
-    <Navbar collapseOnSelect expand="sm" className="bg-body-tertiary d-flex justify-content-between">
+    <Navbar collapseOnSelect expand="sm" className="bg-body-tertiary">
       <Container>
-        <Nav className="mx-auto">
-          <LinkContainer to="/">
-            <Nav.Link>HOME</Nav.Link>
-          </LinkContainer>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="me-auto" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="mx-auto mb-4 border-0 focus" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          
+          <Nav className="mx-auto">
+            <LinkContainer to="/">
+              <Nav.Link>HOME</Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/about">
               <Nav.Link>ABOUT</Nav.Link>
             </LinkContainer>
@@ -26,9 +25,8 @@ function Navbars() {
             <LinkContainer to="/projects">
               <Nav.Link>PROJECTS</Nav.Link>
             </LinkContainer>
-          
+          </Nav>
         </Navbar.Collapse>
-        </Nav>
       </Container>
     </Navbar>
   );
